@@ -36,7 +36,8 @@ or you should enabled variables merging in `ansible.cfg`
 Simply include role in your playbook
 
 Default elasticsearch: localhost:9200
-Default exporter port: 9108
+
+Default exporter port: 9114
 
 ```YAML
 - name: Install and configure prometheus_elasticsearch_exporter
